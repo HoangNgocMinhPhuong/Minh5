@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  scroll-behavior: smooth;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: rgb(169, 189, 40);
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.home {
+  background-image: url("quang-binh.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+}
+
+.home img {
+  width: 100%;
+}
+
+.home h1 {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-size: 6rem;
+  font-family: "Charm", cursive;
+  color: #fff;
+}
+
+.home .ndd {
+  position: absolute;
+  top: 50%;
+  left: 29%;
+  font-size: 3rem;
+  font-family: "Charm", cursive;
+  color: rgb(30, 255, 0);
+  text-align: center;
+}
+
+.home .ndd p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.gioithieu h1 {
+  text-align: center;
+  border: 12px solid rgb(200, 222, 211);
+  border-bottom: none;
+  background-color: rgb(14, 139, 77);
+  margin: -5.6rem 49rem 0 49rem;
+  border-radius: 2rem 2rem 0 0;
+  padding: 1rem 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.firstline {
+  background-color: rgb(14, 139, 77);
+}
+
+.firstline td {
+  width: 50%;
+}
+
+.firstline img {
+  width: 90%;
+  padding: 4rem;
+  padding-bottom: 6rem;
+}
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border: none;
+}
+
+.firstline p,
+.firstline ul,
+.firstline li {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  line-height: 3rem;
+  padding: 0 3rem;
+}
+
+.secondline {
+  background-color: rgb(59, 162, 217);
+  color: #fff;
+}
+
+.secondline td {
+  width: 50%;
+}
+
+.secondline img {
+  width: 85%;
+  padding: 4rem 3rem;
+  padding-bottom: 6rem;
+}
+
+.secondline ul {
+  padding-left: 4rem;
+}
+
+.secondline li {
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 2rem;
+}
+
+.diadiem {
+  text-align: center;
+  border: 12px solid rgb(200, 222, 211);
+  border-bottom: none;
+  background-color: rgb(168, 209, 72);
+  margin: -5.6rem 42rem 0 42rem;
+  border-radius: 2rem 2rem 0 0;
+  padding: 1rem 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.canhquan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  background-color: rgb(169, 209, 72);
+}
+
+.canhquan img {
+  width: 25rem;
+}
+
+.canhquan h1 {
+  padding-top: 1rem;
+  font-family: "Times New Roman", Times;
+}
+
+.canhquan div:nth-child(2),
+.canhquan div:last-child {
+  padding-top: 20rem;
+}
+
+hr{
+  margin:2rem 40rem;
+  margin-bottom:1rem;
+}
+
+.ft{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
